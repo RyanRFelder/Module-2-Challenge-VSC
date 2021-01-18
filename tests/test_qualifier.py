@@ -13,10 +13,20 @@ from qualifier.filters import debt_to_income
 from qualifier.filters import loan_to_value
 from qualifier.filters import max_loan_size
 
+#Import CSV and PyTest
+import csv
+import pytest
+
+
 def test_save_csv():
     # @TODO: Your code here!
     # Use Path from pathlib to output the test csv to ./data/output/qualifying_loans.csv
-
+  
+    csv_file = Path("./data/test_qualifying_loans.csv")
+    qualifying_loans = ['1','2','3']
+    save_csv(csv_file, qualifying_loans)
+    assert csv_file.exists()
+            
 def test_calculate_monthly_debt_ratio():
     assert calculators.calculate_monthly_debt_ratio(1500, 4000) == 0.375
 
