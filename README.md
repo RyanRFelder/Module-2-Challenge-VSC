@@ -31,7 +31,7 @@ The program's usage is intended for a Python IDE such as VS Code, its native env
 
 ## Contributors
 
-I would not have been able to complete this module without the help of my classmate and group member Javier Barrios, whose prompt assistance and guidance enabled me to correct my process and complete the project. Furthermore, with Javier's permission I borrowed a few lines of code, which are cited in the program where relevant. 
+I would not have been able to complete this module challenge without the help of my classmate and group member Javier Barrios, whose prompt assistance and guidance enabled me to correct my process and complete the project. Furthermore, with Javier's permission I borrowed a few lines of code, which are cited in the program where relevant. 
 
 ---
 
