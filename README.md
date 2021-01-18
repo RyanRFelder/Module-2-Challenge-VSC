@@ -7,19 +7,19 @@ As per the user story critereon, this simple CLI app is used to save qualifying 
 
 ## Technologies
 
-This program was developed with Python 3.7.9 and 3.8.2; at various stages conflicts arose with Fire as well as other libraries such as questionary, to remedy these errors, Python 3.8.2 was adopted as the primary version.
+This program was developed with Python 3.7.9 and 3.8.5; at various stages conflicts arose with Fire as well as other libraries such as questionary, to remedy these errors, Python 3.8.5 64-Bit ('base': conda) was adopted as the primary version for the interpreter. 
 
 ---
 
 ## Installation Guide
 
-(In this section, you should include detailed installation notes containing code blocks and screenshots.)
+The following code was used to install modules:
 
----
-
-## Examples
-
-(This section should include screenshots, code blocks, or animations showing how your project works.)
+conda create -n atmdev python=3.7 -y
+conda activate atmdev
+pip install fire
+pip install questionary
+pip install pytest
 
 ---
 
