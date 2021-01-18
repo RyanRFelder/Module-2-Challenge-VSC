@@ -1,39 +1,41 @@
-# Project Title
+# Loan Qualifier Application (CLI)
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+As per the user story critereon, this simple CLI app is used to save qualifying loan data in a
+'.csv' file located at the user's discretion. While most of the code was pre-written (methods, functions,etc.) I found this task moderately difficuly, though ultimately was able to develop a basic version that fulfills the assignment.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This program was developed with Python 3.7.9 and 3.8.2; at various stages conflicts arose with Fire as well as other libraries such as questionary, to remedy these errors, Python 3.8.2 was adopted as the primary version.
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+(In this section, you should include detailed installation notes containing code blocks and screenshots.)
 
 ---
 
 ## Examples
 
-This section should include screenshots, code blocks, or animations showing how your project works.
+(This section should include screenshots, code blocks, or animations showing how your project works.)
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+The program's usage is intended for a Python IDE such as VS Code, its native environment. The application is launched by running the Python file, 'app.py'.
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project; since you may want to be reached by recruiters or potential collaborators, include your contact e-mail, and optionally your LinkedIn or Twitter profile.
+I would not have been able to complete this module without the help of my classmate and group member Javier Barrios, whose prompt assistance and guidance enabled me to correct my process and complete the project. Furthermore, with Javier's permission I borrowed a few lines of code, which are cited in the program where relevant. 
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify others what they can and can not do with your source code and files. Use this section to include the licence you want to use.
+This program is publicly accessible through the repository located at:
+https://github.com/RyanRFelder/Module-2-Challenge-VSC
