@@ -21,10 +21,12 @@ import pytest
 def test_save_csv():
     # @TODO: Your code here!
     # Use Path from pathlib to output the test csv to ./data/output/qualifying_loans.csv
-  
+   
     csv_file = Path("./data/test_qualifying_loans.csv")
+    #The assignment definition for qualifying_loans below was borrowed from Javier Barrios
     qualifying_loans = ['1','2','3']
     save_csv(csv_file, qualifying_loans)
+    #The assertion method logic was also borrowed from Mr. Barrios' code
     assert csv_file.exists()
             
 def test_calculate_monthly_debt_ratio():

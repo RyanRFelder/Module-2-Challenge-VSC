@@ -112,13 +112,17 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
 
-    #Prompt user with choice to save data
+    #Prompt user with choice to save data and file path to save the csv
+    #Otherwise, exit the program
+    
     
     choice = questionary.confirm("Would you like to save a list of the qualifying loans?").ask()
+    
     if choice:
         output_path = questionary.text("Enter a file path to save the data (.csv):").ask()
     if not choice:
         sys.exit("Program terminated")
+        print ("End program")
     
     header = ["Lender","Max Loan Amount","Max LTV","Max DTI","Min Credit Score","Interest Rate"]
 
